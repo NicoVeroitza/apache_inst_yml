@@ -8,7 +8,7 @@ stages:
     displayName: "Instalar Apache y Configurar Página"
     
     environment:
-      name: "env_devops" # Nombre de tu entorno
+      name: "env_devops_sumativa" # Nombre de tu entorno
       resourceType: VirtualMachine # Tipo de recurso, en este caso una máquina virtual
 
     strategy:
