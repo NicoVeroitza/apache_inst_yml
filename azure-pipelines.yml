@@ -23,6 +23,6 @@ stages:
               sudo systemctl restart apache2
               echo "Instalación y configuración completadas."
               echo '<b>Hola DevOps, este es el grupo 06!</b><br /><br /> Saludos desde nuestro servidor Apache corriendo en una VM en Azure, desplegada automáticamente usando infraestructura como código (IaC) con Azure DevOps utilizando agentes de Azure Pipelines! ' | sudo tee /var/www/html/index.html"
-              echo "Apache instalado y página de bienvenida configurada".
+              echo "Apache instalado y página de bienvenida configurada."
             displayName: "Instalar Apache y Configurar Mensaje"
 
