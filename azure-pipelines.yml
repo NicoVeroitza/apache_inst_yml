@@ -19,10 +19,8 @@ stages:
               echo "Iniciando instalación de Apache..."
               sudo apt-get update
               sudo apt-get install -y apache2
-              echo "Hola Estudiantes, Hemos configurado la administración y toma de control de la máquina virtual desde Azure DevOps con código automatizado para cumplir con el CI/CD" | sudo tee /var/www/html/index.html
+              echo "Hola, profesor. Hemos configurado esta página para demostrar la ejecución del pipeline" | sudo tee /var/www/html/index.html
               sudo systemctl restart apache2
               echo "Instalación y configuración completadas."
-              echo '<b>Hola DevOps, este es el grupo 06!</b><br /><br /> Saludos desde nuestro servidor Apache corriendo en una VM en Azure, desplegada automáticamente usando infraestructura como código (IaC) con Azure DevOps utilizando agentes de Azure Pipelines! ' | sudo tee /var/www/html/index.html"
-              echo "Apache instalado y página de bienvenida configurada."
             displayName: "Instalar Apache y Configurar Mensaje"
 
